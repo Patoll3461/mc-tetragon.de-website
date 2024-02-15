@@ -1,0 +1,60 @@
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 3%; 
+    width: 30%;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+h1 {
+    background: linear-gradient(to left,#87cefa, #87cefa 50%, #ffffff 50%, #ffffff);
+    background-size: 200% 100%;
+    background-position: 200% 100%;
+    /*trasition effect for background*/
+    transition: background 2s;
+  }
+
+.play-animation {
+    background-position: 100% 0%;
+}
+
+.menu {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%
+    
+}
+
+.menubutton{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: font-size 0.5s;
+}
+
+.menubutton:hover {
+    font-size: 22px;
+}
+
+hr {
+    margin-top: 0;
+    height: 2px;
+    background-color: black;
+    position: relative;
+}
+
+#active {
+    background-color: lightblue;
+    border: lightskyblue solid 1px;
+}
