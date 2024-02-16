@@ -160,7 +160,7 @@ hr {
 .spandow {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(10, 10, 10, 0.3);
+    background-color: rgba(10, 10, 10, 0.5);
     border: 2px solid var(--text-color);
     border-radius: 10px;
     text-align: center;
