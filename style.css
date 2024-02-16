@@ -32,14 +32,12 @@ h1 {
 .menu {
     margin-top: 1%;
     display: flex;
-    justify-content: center;
     padding-top: 3%
     
 }
 
 .menubuttonl{
-    margin-left: 22%;
-    margin-right: 22%;
+    margin-left: 20%;
     text-align: center;
     color: var(--text-color);
     font-weight: bold;
@@ -56,8 +54,7 @@ h1 {
 }
 
 .menubuttonr{
-    margin-left: 22%;
-    margin-right: 22%;
+    margin-left: 41%;
     text-align: center;
     color: var(--text-color);
     font-weight: bold;
@@ -146,23 +143,24 @@ hr {
     background-image: url(img/tet3ja.png);
 }
 
-#tet4ja {
+#tet5ja {
     background-image: url(img/tet4.png);
 }
 
-#tet4be:hover {
+#tet5be:hover {
     transform: scale(1.1);
     background-color: whitesmoke;
 }
 
-#tet4be {
+#tet5be {
     background-image: url(img/tet4be.png);
     background-size: 120%;
     transform: translateY(1%);
 }
 
 .spandow {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 2px solid var(--text-color);
     border-radius: 10px;
 }
@@ -198,3 +196,4 @@ span {
         --button-background-color: lightskyblue;
     }
 }
+
