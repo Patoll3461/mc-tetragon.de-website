@@ -249,15 +249,15 @@ span {
 
 @media screen and (max-width: 1100px){
     .download {
-        width: 95%;
+        width: 92%;
         margin-left: auto;
         margin-right: auto;
         display: block;
         padding-top: 35%;
         padding-bottom: 35%;
         background-size: 170%;
-        margin-bottom: 2%;
-        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
 
     span {
