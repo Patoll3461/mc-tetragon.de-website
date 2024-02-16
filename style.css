@@ -142,8 +142,16 @@ hr {
     background-image: url(img/tet3ja.png);
 }
 
+#tet4ja {
+    background-image: url(img/tet4ja.png);
+}
+
+#tet4be {
+    background-image: url(img/tet4be.png);
+}
+
 #tet5ja {
-    background-image: url(img/tet4.png);
+    background-image: url(img/tet5ja.png);
 }
 
 #tet5be:hover {
@@ -152,7 +160,7 @@ hr {
 }
 
 #tet5be {
-    background-image: url(img/tet4be.png);
+    background-image: url(img/tet5be.png);
     background-size: 120%;
     transform: translateY(-1%);
 }
@@ -177,16 +185,6 @@ span {
     justify-content: center;
 }
 
-.tet4 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    margin-bottom: 5%;
-    border: 3px solid var(--border-color);
-    background-color: var(--background-color);
-    border-radius: 20px;
-}
 
 @media (prefers-color-scheme: dark) {
     :root {
