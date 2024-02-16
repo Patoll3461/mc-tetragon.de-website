@@ -160,7 +160,7 @@ hr {
 .spandow {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(10, 10, 10, 0.5);
+    background-color: var(--blur-background);
     border: 2px solid var(--text-color);
     border-radius: 10px;
     text-align: center;
@@ -194,6 +194,7 @@ span {
         --border-color: black;
         --background-color: #323232;
         --button-background-color: white;
+        --blur-background: rgba(10, 10, 10, 0.5);
     }
 }
 
@@ -203,6 +204,7 @@ span {
         --border-color: lightskyblue;
         --background-color: white;
         --button-background-color: lightskyblue;
+        --blur-background: rgba(255, 255, 255, 0.5);
     }
 }
 
