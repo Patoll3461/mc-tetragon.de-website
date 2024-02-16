@@ -147,7 +147,7 @@ hr {
 }
 
 #tet4be {
-    background-image: url(img/tet4be.png);
+    background-image: url(img/tet4rbe.png);
 }
 
 #tet5ja {
@@ -160,9 +160,17 @@ hr {
 }
 
 #tet5be {
-    background-image: url(img/tet5be.png);
+    background-image: url(img/tet5rbe.png);
     background-size: 120%;
     transform: translateY(-1%);
+}
+
+#ceja {
+    background-image: url(img/ceja.png);
+}
+
+#cebe {
+    background-image: url(img/cebe.png);
 }
 
 .spandow {
