@@ -110,8 +110,7 @@ hr {
     transition-property: all;
     transition-duration: 0.2s;
     font-size: 30px;
-    font-weight: bold;
-
+    font-weight: bold; 
 } 
 
 .download:hover {
@@ -155,14 +154,16 @@ hr {
 #tet5be {
     background-image: url(img/tet4be.png);
     background-size: 120%;
-    transform: translateY(1%);
+    transform: translateY(-3%);
 }
 
 .spandow {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(10, 10, 10, 0.3);
     border: 2px solid var(--text-color);
     border-radius: 10px;
+    text-align: center;
 }
 
 h2 {
@@ -172,6 +173,8 @@ h2 {
 
 span {
     color: var(--text-color);
+    display: flex;
+    justify-content: center;
 }
 
 .tet4 {
@@ -261,7 +264,7 @@ span {
     }
 
     span {
-        font-size: 82px;
+        font-size: 77px;
     }
 
     .header {
