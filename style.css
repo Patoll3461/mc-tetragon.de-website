@@ -154,7 +154,7 @@ hr {
 #tet5be {
     background-image: url(img/tet4be.png);
     background-size: 120%;
-    transform: translateY(-3%);
+    transform: translateY(-1%);
 }
 
 .spandow {
@@ -268,6 +268,6 @@ span {
     }    
 
     #tet5s {
-        font-size: 55px;
+        font-size: 45px;
     }
 }
