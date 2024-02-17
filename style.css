@@ -216,13 +216,14 @@ span {
     flex-direction: column;
     gap: var(--hamburger-gap);
     width: max-content;
-    position: absolute;
+    /*position: absolute;*/
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
     top: var(--hamburger-margin);
     left: var(--hamburger-margin);
     z-index: 2;
     cursor: pointer;
     margin-left: 10px;
-    position: fixed;
 }
 
 .hamburger-menu:has(input:checked) {
@@ -240,7 +241,6 @@ span {
 .hamburger-menu::before,
 .hamburger-menu::after,
 .hamburger-menu input {
-    position: fixed;
     content: "";
     width: var(--bar-width);
     height: var(--bar-height);
