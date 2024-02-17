@@ -5,20 +5,24 @@
         <title>Legacy Downloads</title>
         <link rel="icon" type="image/x-icon" href="/img/icon.png">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="index.js"></script>
     </head>
     <body>
-        <label class="hamburger-menu">
-            <input type="checkbox">
-        </label>
-        <aside class="sidebar">
-            <nav>
-                <div>About</div>
-                <div>Download</div>
-                <div>Games</div>
-            </nav>
-        </aside>
-        <h1 class="header", id="header">Downloads</h1>
+        <div class="bg-cover" class="none"></div>
+        <a class="hamburger-shell">
+	        <div class="hamb top"></div>
+		    <div class="hamb middle"></div>
+	        <div class="menu-name">MENU</div>
+
+            <ul id="menu">
+		        <a href="#"> <li>Home</li></a>
+		        <a href="#"> <li>Minecraft</li></a>
+		        <a href="#"> <li>Games</li></a>
+		        <a href="#"> <li>About</li></a>
+            </ul>
+        </a>	
+        <h1 class="dowheader", id="header">Downloads</h1>
         <div class="menu">
             <button class="menubuttonl" id="active" onclick="window.location.href='./index.html'">Legacy</button>
             <button class="menubuttonr" onclick="window.location.href='./new.html'">New</button>
