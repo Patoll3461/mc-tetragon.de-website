@@ -504,7 +504,8 @@ span {
         width: 20%;
         height: 13%;
         left: 80%;
-        top: -0.5%;
+        top: 0%;
+        margin-top: 3%;
     }
 
     .top, .middle {
@@ -531,7 +532,7 @@ span {
     #menu {
         font-weight: bold;
         font-size: 4rem;
-        top: 5%;
+        top: 7%;
         left: 46%;
         width: 50%;
         text-align: left;
