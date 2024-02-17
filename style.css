@@ -251,6 +251,7 @@ span {
 	background-color: var(--text-color);
 	transition: all 350ms ease-in-out;
 	top: 20px;
+    border-radius: 9999px;
 }
 
 .middle {
