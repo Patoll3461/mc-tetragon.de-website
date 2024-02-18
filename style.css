@@ -7,7 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    margin-top: 3%; 
+    margin-top: 20px; 
     width: 30%;
     border: 3px solid black;
     text-align: center;
@@ -244,7 +244,7 @@ span {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 2px solid var(--border-color);
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: var(--blur-background);
 }
 
@@ -436,7 +436,7 @@ span {
 
 @media screen and (max-width: 2000px){
     .download {
-        background-size: 125%;
+        background-size: 125%;  
         background-position: 5% 0;
     }
     span {
@@ -469,26 +469,28 @@ span {
     }
 
     span {
-        font-size: 65px;
+        font-size: 30px;
     }
 
     .dowheader {
-        width: 58%;
-        height:40%;
-        padding-bottom: 10%;
-        padding-top: 10%;
-        font-size: 100px;
+        width: 70%;
+        height: 30%;
+        padding-bottom: 7%;
+        padding-top: 7%;
+        font-size: 50px;
+        margin-left: 5%;
     }
 
     .menubuttonl {
-        font-size: 65px;
-        margin-left: 15%;
+        font-size: 30px;
+        margin-left: 5%;
         padding: 0;
+        width: 32%;
     }
 
     .menubuttonr {
-        font-size: 65px;
-        margin-left: 32%;
+        font-size: 30px;
+        margin-left: 20%;
         padding: 0;
     }
 
@@ -497,22 +499,22 @@ span {
     }    
 
     #tet5s {
-        font-size: 45px;
+        font-size: 20px;
     }
 
     .hamburger-shell {
         width: 20%;
         height: 13%;
-        left: 80%;
-        top: 0%;
-        margin-top: 3%;
+        left: 78%;
+        margin-top: 0;
+        padding: 0;
     }
 
     .top, .middle {
-        width: 90%;
+        width: 80%;
         height: 22%;
         top: 10%;
-        left: 5%;
+        left: 10%;
     }
 
     .middle {
@@ -531,20 +533,26 @@ span {
 
     #menu {
         font-weight: bold;
-        font-size: 4rem;
-        top: 7%;
-        left: 46%;
-        width: 50%;
-        text-align: left;
+        font-size: 2rem;
+        top: 2%;
+        left: 30%;
+        width: 60%;
+        text-align: right;
     }
     .menu-name {
-        font-size: 36px;
+        font-size: 18px;
         top: 64%;
-        left: 10%;
+        left: 11%;
     }
 
     #menu li {
         text-align: right;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dowheader {
+        font-size: 40px;
     }
 }
 
