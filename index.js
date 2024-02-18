@@ -22,7 +22,7 @@ function loadStuff() {
 		$('.menu-name').toggleClass('bump');
 		$('.bg-cover').toggleClass('reveal');
 		if (clicked){
-			await sleepm(250);
+			await sleepm(400);
 			$('#menu').toggleClass('background');
 			$('.hamburger-shell').toggleClass('blur');
 		}
