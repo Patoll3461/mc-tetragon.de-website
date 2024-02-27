@@ -1,9 +1,13 @@
-var clicked;
+let clicked;
 clicked = false;
 
 window.onload = function() {
-    const header = document.querySelector('.dowheader');
+    let header = document.querySelector('.dowheader');
     header.classList.add('play-animation');
+	header = document.querySelector('.simheader');
+	header.classList.add('play-animation');
+	header = document.querySelector('.newheader');
+	header.classList.add('play-animation')
 }
 
 function sleepm(ms) {

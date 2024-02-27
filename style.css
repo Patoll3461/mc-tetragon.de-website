@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.dowheader{
+.dowheader {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +14,44 @@
     font-size: 50px;
     font-weight: bold;
     box-sizing: border-box;
+}
+
+.simheader {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 20%;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.newheader {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 20%;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.news {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 70px;
+    border: 3px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    padding: 0;
+    margin-bottom: 120px;
 }
 
 body{
@@ -410,6 +448,29 @@ span {
     background-color: var(--menu-color);
     border: 3px solid black;
     border-radius: 50px;
+}
+
+.contact {
+    color: var(--text-color);
+}
+
+.contactdiv {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.game {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.hrclass {
+    margin-top: 1%;
 }
 
 @media (prefers-color-scheme: dark) {
