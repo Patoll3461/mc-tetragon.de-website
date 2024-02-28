@@ -517,6 +517,25 @@ span {
 }
 
 @media screen and (max-width: 1100px){
+    .simheader {
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .newheader {
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .news {
+        font-size: 40px;
+        width: 90%;
+    }
+
+    .about {
+        font-size: 30px;
+    }
+
     .download {
         width: 92%;
         margin-left: auto;
