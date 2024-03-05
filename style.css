@@ -465,12 +465,23 @@ span {
 
 .game {
     margin-top: 1%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .hrclass {
     margin-top: 1%;
+}
+
+.article {
+    margin: auto;
+    font-size: 35px;
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 65%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: var(--text-color);
+    background-color: var(--article-background);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -481,6 +492,7 @@ span {
         --background-color: #323232;
         --button-background-color: white;
         --blur-background: rgba(10, 10, 10, 0.5);
+        --article-background: rgba(255, 255, 255, 0.3);
     }
 }
 
@@ -492,6 +504,7 @@ span {
         --background-color: white;
         --button-background-color: lightskyblue;
         --blur-background: rgba(255, 255, 255, 0.5);
+        --article-background: rgba(20, 20, 20, 0.3);
     }
 }
 
