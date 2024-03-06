@@ -470,6 +470,17 @@ span {
 
 .hrclass {
     margin-top: 1%;
+    height: 4px;
+    border: none;
+}
+
+.hrclass2 {
+    height: 4px;
+    border: none;
+}
+
+hr {
+    border: none;
 }
 
 .article {
@@ -482,6 +493,16 @@ span {
     padding-bottom: 7%;
     color: var(--text-color);
     background-color: var(--article-background);
+}
+
+.abouttetragon {
+    color: var(--text-color);
+    font-size: 28px;
+}
+
+.aboutme {
+    color: var(--text-color);
+    font-size: 25px;
 }
 
 @media (prefers-color-scheme: dark) {
