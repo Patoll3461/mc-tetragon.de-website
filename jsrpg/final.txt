@@ -1,0 +1,13 @@
+[[sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sst,],
+[sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
+[sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
+[sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
+[sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
+[sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
+[sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
+[sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
+[sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
+[sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
+[sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
+[sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
+[sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn]]

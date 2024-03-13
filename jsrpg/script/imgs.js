@@ -1,0 +1,9 @@
+pingDown = new Image();
+pingDown.src = "img/ping_down.png";
+pingUp = new Image();
+pingUp.src = "img/ping_up.png";
+pingLeft = new Image();
+pingLeft.src = "img/ping_left.png";
+pingRight = new Image();
+pingRight.src = "img/ping_right.png";
+mus = document.getElementById("mus");
