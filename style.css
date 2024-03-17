@@ -52,6 +52,7 @@
     border-radius: 50px;
     padding: 0;
     margin-bottom: 120px;
+    background-color: var(--article-background);
 }
 
 body{
@@ -673,6 +674,5 @@ hr {
 @media (hover:none) {
     .menubuttonr {
         margin-left: 40%;
-    }
-    
+    }   
 }
