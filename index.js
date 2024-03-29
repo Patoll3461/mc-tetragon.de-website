@@ -2,11 +2,18 @@ let clicked;
 clicked = false;
 
 window.onload = function() {
-    let header = document.querySelector('.dowheader');
-    header.classList.add('play-animation');
+	let header;
+	try {
+		header = document.querySelector('.dowheader');
+		header.classList.add('play-animation');
+	} catch {
+		console.log("no normal header")
+	}
 	header = document.querySelector('.simheader');
 	header.classList.add('play-animation');
 	header = document.querySelector('.newheader');
+	header.classList.add('play-animation')
+	header = document.querySelector('.dowwheader');
 	header.classList.add('play-animation')
 }
 
@@ -33,14 +40,5 @@ function loadStuff() {
 		clicked = !clicked;
 	});
 }
-
-window.onloadTurnstileCallback = function () {
-    turnstile.render('#example-container', {
-        sitekey: '0x4AAAAAAAUi69Xe3qlCrGDM',
-        callback: function(token) {
-            console.log(`Challenge Success ${token}`);
-        },
-    });
-};
 
 $(document).ready(loadStuff);

@@ -16,6 +16,20 @@
     box-sizing: border-box;
 }
 
+.dowwheader {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 20px; 
+    width: 30%;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
 .simheader {
     padding: 0;
     margin-left: auto;
@@ -25,7 +39,7 @@
     width: 20%;
     border: 3px solid black;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     box-sizing: border-box;
 }
 
@@ -552,8 +566,11 @@ hr {
 }
 
 @media screen and (max-width: 1100px){
+    .iframe {
+        width: 100%;
+    }
     .simheader {
-        font-size: 30px;
+        font-size: 35px;
         width: 60%;
     }
 
@@ -590,9 +607,18 @@ hr {
     .dowheader {
         width: 70%;
         height: 30%;
-        padding-bottom: 7%;
-        padding-top: 7%;
-        font-size: 50px;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .dowwheader {
+        width: 70%;
+        height: 30%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        font-size: 40px;
         margin-left: 5%;
     }
 
@@ -607,6 +633,10 @@ hr {
         font-size: 30px;
         margin-left: 20%;
         padding: 0;
+    }
+
+    .newheader {
+        width: 70%;
     }
 
     #tet5be {
@@ -663,11 +693,16 @@ hr {
     #menu li {
         text-align: right;
     }
+
+    .article {
+        font-size: 30px;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .dowheader {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
