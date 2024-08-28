@@ -132,19 +132,15 @@ class enemy{
      }
 
      movetoplayer(){
-         if (player.x < this.x - 3){
+         if (player.x < this.x ){
             this.xdir = -1;
-         } else if (player.x > this.x + 3){
+         } else if (player.x > this.x){
             this.xdir = 1;
-         } else {
-            this.xdir = 0;
-         }
-         if (player.y < this.y - 3){
+         } 
+         if (player.y < this.y){
             this.ydir = -1;
-         } else if (player.y > this.y + 3){
-            this.ydir = 1;
          } else {
-            this.ydir = 0;
+            this.ydir = 1;
          }
      }
 }

@@ -245,6 +245,11 @@ hr {
 #cebe {
     background-image: url(img/cebe.png);
 }
+
+#rpg {
+    background-image: url(img/jsrpg.png);
+}
+
 .spandow {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);

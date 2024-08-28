@@ -1,4 +1,4 @@
-def convert(input, type):
+def convert(input):
     output = ""
     index = 0
     locIndex = 0
@@ -8,12 +8,9 @@ def convert(input, type):
         for x in y:
             for z in x:
                 if (z == "s"):
-                    if (type == "snow"):
-                        output += "sst"
-                    else: 
-                        output += "s"
+                    output += "s"
                 elif (z == "g"):
-                    output += "sn"
+                    output += "g"
                 elif (z == "\\"):
                      output += ""
                 elif (z == "n"):
@@ -31,7 +28,7 @@ def convert(input, type):
     output += "]"
     return output
 
-convertableText = open("/var/www/mc-tetragon.de/jsrpg/board.txt", "r")
+convertableText = open("C:/Users/Anwender/Documents/Von alt/html/jsrpg/board.txt", "r")
 convertable = ["", "", "", "", "", "", "", "", "", "", "", "", ""]
 index = 1
 
@@ -39,6 +36,6 @@ for i in range(0, 13):
     convertable[index - 1] += convertableText.readlines(index)[0]
     index += 1
 
-final = open("/var/www/mc-tetragon.de/jsrpg/final.txt", "w")
+final = open("C:/Users/Anwender/Documents/Von alt/html/jsrpg/final.txt", "w")
 
-final.write(convert(convertable, "snow"))
+final.write(convert(convertable))

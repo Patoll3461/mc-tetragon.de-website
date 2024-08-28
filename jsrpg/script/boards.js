@@ -21,22 +21,22 @@ var screen1 = [[sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,s
                [sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,i,i,i,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn],
                [sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,i,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn],
                [sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn],
-               [sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn],
-               [sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn],
-               [sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn]]
+               [g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,],
+               [g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,],
+               [g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,],]
 
-var screen2 = [[sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sst,],
-               [sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
-               [sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
-               [sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
-               [sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
-               [sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
-               [sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
-               [sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
-               [sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
-               [sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
-               [sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,sn,],
-               [sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,],
-               [sst,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn,sst,sst,sst,sst,sst,sst,sn,sn,sn,sn,sn,sn]]
+var screen2 = [[g,g,g,g,g,g,s,s,s,s,s,s,s,s,g,g,g,g,g,g,g,g,g,g,g,],
+               [s,s,s,s,s,s,s,g,g,g,g,g,g,s,s,s,s,s,s,g,g,g,g,g,g,],
+               [g,g,g,g,g,g,s,s,s,s,s,s,s,s,g,g,g,g,g,g,g,g,g,g,g,],
+               [s,s,s,s,s,s,s,g,g,g,g,g,g,s,s,s,s,s,s,g,g,g,g,g,g,],
+               [g,g,g,g,g,g,s,s,s,s,s,s,s,s,g,g,g,g,g,g,g,g,g,g,g,],
+               [s,s,s,s,s,s,s,g,g,g,g,g,g,s,s,s,s,s,s,g,g,g,g,g,g,],
+               [g,g,g,g,g,g,s,s,s,s,s,s,s,s,g,g,g,g,g,g,g,g,g,g,g,],
+               [s,s,s,s,s,s,s,g,g,g,g,g,g,s,s,s,s,s,s,g,g,g,g,g,g,],
+               [g,g,g,g,g,g,s,s,s,s,s,s,s,s,g,g,g,g,g,g,g,g,g,g,g,],
+               [s,s,s,s,s,s,s,g,g,g,g,g,g,s,s,s,s,s,s,g,g,g,g,g,g,],
+               [g,g,g,g,g,g,s,s,s,s,s,s,s,s,g,g,g,g,g,g,g,g,g,g,g,],
+               [s,s,s,s,s,s,s,g,g,g,g,g,g,s,s,s,s,s,s,g,g,g,g,g,g,],
+               [s,s,s,s,s,s,s,g,g,g,g,g,g,s,s,s,s,s,s,g,g,g,g,g,g]]
 
 boards = [screen1, screen2];
