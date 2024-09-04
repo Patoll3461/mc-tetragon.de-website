@@ -267,6 +267,14 @@ hr {
     transform: translateX(-33%);
 }
 
+.table {
+    font-size:30px;
+    border: 3px solid var(--menu-color);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -280,6 +288,10 @@ hr {
     border: 2px solid var(--text-color);
     border-radius: 10px;
     text-align: center;
+}
+
+th {
+    width: 25%;
 }
 
 h2 {
