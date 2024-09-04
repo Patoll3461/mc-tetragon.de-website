@@ -251,6 +251,28 @@ hr {
     background-size: 150%;
 }
 
+#tet6new {
+    background-color: var(--article-background);
+    background-image: url(img/icon.png);
+    background-position: center;
+    background-size: 90%;
+    width: 23%;
+}
+
+#newsspan {
+    width: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-33%);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .spandow {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
