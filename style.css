@@ -191,6 +191,40 @@ hr {
     background-color: whitesmoke;
 }
 
+.downloadcenter {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 36%;
+    padding: 9%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: 3px solid var(--border-color);
+    border-radius: 5%;
+    background-size: 110%;
+    transition-property: all;
+    transition-duration: 0.2s;
+    font-size: 30px;
+    font-weight: bold; 
+} 
+
+.downloadcenter:hover {
+    transform: scale(1.1);
+    background-color: whitesmoke;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 #tet1be { 
     background-image: url(img/tet1be.png);
 }
@@ -255,7 +289,7 @@ hr {
     background-color: var(--article-background);
     background-image: url(img/icon.png);
     background-position: center;
-    background-size: 90%;
+    background-size: 80%;
     width: 23%;
 }
 
@@ -273,6 +307,15 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    table-layout: fixed;
+    background-color: lightskyblue;
+    color: black;
+}
+
+th, td {
+    overflow: hidden; /* This will help prevent content overflow */
+    text-overflow: ellipsis; /* This adds ellipsis for overflowed content */
+    white-space: nowrap; /* Prevent line breaks */
 }
 
 .center {
@@ -415,6 +458,25 @@ span {
 	text-decoration: none;
 }
 
+.tet6 {
+    color:var(--text-color);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tet6table {
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
 .rotate {
 	transform: rotate(225deg);
 	-webkit-transform: rotate(225deg);
@@ -518,6 +580,10 @@ span {
 }
 
 .about {
+    font-size: 30px;
+}
+
+.tet6text {
     font-size: 30px;
 }
 
@@ -690,6 +756,17 @@ hr {
         font-size: 20px;
     }
 
+    
+    .table {
+        font: size 15px;
+        border: 3px solid var(--menu-color);
+        margin-left: auto;
+        margin-right: auto;
+        width: 250%; /* Full width of the container */
+        table-layout: auto; /* Allow the table to adjust layout based on content */
+        font-size: 23px;
+    }
+
     .hamburger-shell {
         width: 20%;
         height: 13%;
@@ -740,6 +817,70 @@ hr {
     .article {
         font-size: 30px;
         width: 90%;
+    }
+
+    .tet6table {
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile devices */
+        display: block;
+        margin-bottom: 30%;
+        position: relative; /* Allows for adding scroll hints */
+        overflow-x: auto;
+    }
+
+    .tet6 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .tet6text {
+        font-size: 27px;
+    }
+
+    .tet6table::-webkit-scrollbar {
+        height: 12px; /* Increase scrollbar height */
+    }
+    
+    .tet6table::-webkit-scrollbar-thumb {
+        background-color: #777; /* Change color for visibility */
+        border-radius: 10px; /* Rounded scrollbar thumb */
+    }
+    
+    .tet6table::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+    }
+
+    .downloadcenter {
+        width: 100%;
+    }
+
+    #tet6new {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 30%;
+        padding-bottom: 30%;
+        background-size: 90%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    #newsspan {
+        font-size: 20px;
+        width: 100%;
+        margin-left: 40%;
+    }
+
+    #rpg {
+        background-size: 210%;
     }
 }
 

@@ -42,3 +42,5 @@ function loadStuff() {
 }
 
 $(document).ready(loadStuff);
+
+tet6table.addEventListener('scroll', updateShadowPosition);
