@@ -110,11 +110,11 @@ h1 {
 }
 
 .menubuttonl{
-    margin-left: 22%;
+    margin-left: 18%;
     text-align: center;
     color: var(--text-color);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 150%;
     transition: font-size 0.2s;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -127,11 +127,11 @@ h1 {
 }
 
 .menubuttonr{
-    margin-left: 44%;
+    margin-left: 10%;
     text-align: center;
     color: var(--text-color);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 150%;
     transition: font-size 0.2s;
     background-color: transparent;
     background-repeat: no-repeat;
