@@ -313,9 +313,9 @@ hr {
 }
 
 th, td {
-    overflow: hidden; /* This will help prevent content overflow */
-    text-overflow: ellipsis; /* This adds ellipsis for overflowed content */
-    white-space: nowrap; /* Prevent line breaks */
+    /*overflow: hidden; /* This will help prevent content overflow */
+    /*text-overflow: ellipsis; /* This adds ellipsis for overflowed content */
+    /*white-space: nowrap; /* Prevent line breaks */
 }
 
 .center {
@@ -881,6 +881,10 @@ hr {
 
     #rpg {
         background-size: 210%;
+    }
+
+    #header {
+        font-size: 48px;
     }
 }
 
