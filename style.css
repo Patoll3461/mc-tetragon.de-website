@@ -110,7 +110,7 @@ h1 {
 }
 
 .menubuttonl{
-    margin-left: 18%;
+    margin-left: 22%;
     text-align: center;
     color: var(--text-color);
     font-weight: bold;
@@ -127,7 +127,7 @@ h1 {
 }
 
 .menubuttonr{
-    margin-left: 10%;
+    margin-left: 44%;
     text-align: center;
     color: var(--text-color);
     font-weight: bold;
@@ -680,7 +680,7 @@ hr {
     }
     .simheader {
         font-size: 30px;
-        width: 60%;
+        width: 80%;
     }
 
     .newheader {
@@ -883,8 +883,8 @@ hr {
         background-size: 210%;
     }
 
-    #header {
-        font-size: 48px;
+    #headertwo {
+        font-size: 30px;
     }
 }
 
