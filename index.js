@@ -2,11 +2,18 @@ let clicked;
 clicked = false;
 
 window.onload = function() {
-    let header = document.querySelector('.dowheader');
-    header.classList.add('play-animation');
+	let header;
+	try {
+		header = document.querySelector('.dowheader');
+		header.classList.add('play-animation');
+	} catch {
+		console.log("no normal header")
+	}
 	header = document.querySelector('.simheader');
 	header.classList.add('play-animation');
 	header = document.querySelector('.newheader');
+	header.classList.add('play-animation')
+	header = document.querySelector('.dowwheader');
 	header.classList.add('play-animation')
 }
 
@@ -35,3 +42,5 @@ function loadStuff() {
 }
 
 $(document).ready(loadStuff);
+
+tet6table.addEventListener('scroll', updateShadowPosition);
