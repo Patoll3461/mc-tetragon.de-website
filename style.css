@@ -285,6 +285,16 @@ hr {
     background-size: 150%;
 }
 
+#mrpack {
+    background-image: url(img/mrpack.png);
+    background-position: center;
+}
+
+#forge {
+    background-image: url(img/forge.png);
+    background-position: center;
+}
+
 #tet6new {
     background-color: var(--article-background);
     background-image: url(img/icon.png);
